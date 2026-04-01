@@ -4,7 +4,7 @@ import os
 from datetime import datetime
 
 # --- CONFIG ---
-WEBHOOK_URL = os.environ.get("https://discord.com/api/webhooks/1488799304381501480/DTCvjpFEymnkhLUpI1vMQ240hN4PmYzDsR1L-gkH-a66KBuuNh5diTsx6zQCt6XQjPkc")
+WEBHOOK_URL = "https://discord.com/api/webhooks/1488799304381501480/DTCvjpFEymnkhLUpI1vMQ240hN4PmYzDsR1L-gkH-a66KBuuNh5diTsx6zQCt6XQjPkc"
 SERVER_IP = os.environ.get("SERVER_IP", "thetismmsmp.falixsrv.me")
 SERVER_PORT = os.environ.get("SERVER_PORT", "26094")
 UPDATE_INTERVAL = 60
