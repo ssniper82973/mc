@@ -12,7 +12,7 @@ UPDATE_INTERVAL = 60  # seconds between updates
 
 def get_server_status():
     try:
-        url = f"https://api.mcsrvstat.us/2/{SERVER_IP}:{SERVER_PORT}"
+        url = f"https://api.mcsrvstat.us/3/{SERVER_IP}:{SERVER_PORT}"
         r = requests.get(url, timeout=10)
         data = r.json()
         if data.get("online"):
